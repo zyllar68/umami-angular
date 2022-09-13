@@ -1,0 +1,30 @@
+:root {
+  // colors
+  --primary: hsl(353, 91%, 59%); //#F6364D
+  --dark-secondary: hsl(0, 0%, 40%); //#656565
+  --secondary: hsl(0, 0%, 51%); //#828282
+  --semi-light-secondary: hsl(0, 0%, 60%); //#999999
+  --light-secondary: hsl(0, 0%, 88%); //E1E1E1
+  --black: hsl(240, 3%, 22%); //#37373A
+  --pink: rgb(239, 189, 195); //#EFBDC3
+  --white: hsl(0, 0%, 100%);
+  // font weight
+  --extra-bold: 800;
+  --bold: 700;
+  --semi-bold: 600;
+  --fw-regular: 400;
+
+  //font-size
+  --extra-big: 64px;
+  --semi-big: 44px;
+  --medium-big: 40px;
+  --big: 36px;
+  --large: 32px;
+  --semi-large: 24px;
+  --extra-regular: 18px;
+  --regular: 16px;
+  --small: 14px;
+  --very-small: 14px;
+
+  --font-family: "Nunito", sans-serif;
+}

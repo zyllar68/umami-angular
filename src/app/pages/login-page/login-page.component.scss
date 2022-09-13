@@ -1,0 +1,17 @@
+.loginPage {
+  height: 100%;
+
+  &__content {
+    @media (min-width: 769px) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__right {
+  }
+
+  &__left {
+    display: none;
+  }
+}

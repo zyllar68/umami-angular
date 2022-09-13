@@ -1,1 +1,26 @@
-<p>navbar works!!!!!!!!!!!!</p>
+<nav class="nav" [ngClass]="{ active: burgerActive === true }">
+  <div class="nav__header">
+    <div class="nav__brand">
+      <p>umami</p>
+    </div>
+    <div
+      class="nav__burger"
+      [ngClass]="{ 'active-burger': burgerActive === true }"
+      (click)="onToggleBurger()"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <ul class="nav__menu">
+    <li>Home</li>
+    <li>Service</li>
+    <li>Clients</li>
+    <li>About Us</li>
+    <li>Contact Us</li>
+    <li>
+      <button class="login">LOGIN</button>
+    </li>
+  </ul>
+</nav>

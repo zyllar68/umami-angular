@@ -9,6 +9,7 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { CardComponent } from './components/card/card.component';
 import { InputComponent } from './components/input/input.component';
 import { Signup1PageComponent } from './pages/signup1-page/signup1-page.component';
+import { Signup2PageComponent } from './pages/signup2-page/signup2-page.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { Signup1PageComponent } from './pages/signup1-page/signup1-page.componen
     CardComponent,
     InputComponent,
     Signup1PageComponent,
+    Signup2PageComponent,
   ],
   imports: [BrowserModule],
   providers: [],

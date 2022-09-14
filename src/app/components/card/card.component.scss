@@ -6,4 +6,8 @@
   border-radius: 20px;
   padding: 2.5rem;
   background-color: var(--white);
+
+  @media (min-width: 993px) {
+    width: 1024px !important;
+  }
 }

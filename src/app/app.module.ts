@@ -13,6 +13,7 @@ import { Signup2PageComponent } from './pages/signup2-page/signup2-page.componen
 import { VerifyEmailPageComponent } from './pages/verify-email-page/verify-email-page.component';
 import { VerifyEmail2PageComponent } from './pages/verify-email2-page/verify-email2-page.component';
 import { EmailVerifiedPageComponent } from './pages/email-verified-page/email-verified-page.component';
+import { ForgotPasswordPageComponent } from './pages/forgot-password-page/forgot-password-page.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { EmailVerifiedPageComponent } from './pages/email-verified-page/email-ve
     VerifyEmailPageComponent,
     VerifyEmail2PageComponent,
     EmailVerifiedPageComponent,
+    ForgotPasswordPageComponent,
   ],
   imports: [BrowserModule],
   providers: [],

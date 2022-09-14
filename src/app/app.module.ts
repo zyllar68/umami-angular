@@ -12,6 +12,7 @@ import { Signup1PageComponent } from './pages/signup1-page/signup1-page.componen
 import { Signup2PageComponent } from './pages/signup2-page/signup2-page.component';
 import { VerifyEmailPageComponent } from './pages/verify-email-page/verify-email-page.component';
 import { VerifyEmail2PageComponent } from './pages/verify-email2-page/verify-email2-page.component';
+import { EmailVerifiedPageComponent } from './pages/email-verified-page/email-verified-page.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { VerifyEmail2PageComponent } from './pages/verify-email2-page/verify-ema
     Signup2PageComponent,
     VerifyEmailPageComponent,
     VerifyEmail2PageComponent,
+    EmailVerifiedPageComponent,
   ],
   imports: [BrowserModule],
   providers: [],

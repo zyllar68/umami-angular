@@ -1,0 +1,37 @@
+.emailVerified {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url("../../../assets/hero-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  &__content {
+    text-align: center;
+    width: 100%;
+    h1 {
+      color: var(--primary);
+      font-size: var(--extra-big);
+      font-weight: var(--fw-regular);
+    }
+
+    h2 {
+      font-size: var(--medium-big);
+      font-weight: var(--semi-bold);
+      margin-bottom: 1.5rem;
+      color: #000000;
+    }
+
+    button {
+      margin-top: 3rem;
+      width: 350px;
+      height: 50px;
+    }
+  }
+}

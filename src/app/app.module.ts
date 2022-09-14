@@ -11,6 +11,7 @@ import { InputComponent } from './components/input/input.component';
 import { Signup1PageComponent } from './pages/signup1-page/signup1-page.component';
 import { Signup2PageComponent } from './pages/signup2-page/signup2-page.component';
 import { VerifyEmailPageComponent } from './pages/verify-email-page/verify-email-page.component';
+import { VerifyEmail2PageComponent } from './pages/verify-email2-page/verify-email2-page.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { VerifyEmailPageComponent } from './pages/verify-email-page/verify-email
     Signup1PageComponent,
     Signup2PageComponent,
     VerifyEmailPageComponent,
+    VerifyEmail2PageComponent,
   ],
   imports: [BrowserModule],
   providers: [],

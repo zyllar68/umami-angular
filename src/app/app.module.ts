@@ -7,7 +7,6 @@ import { HeroBannerComponent } from './components/hero-banner/hero-banner.compon
 import { MainPageComponent } from './pages/main-page/main-page.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { CardComponent } from './components/card/card.component';
-import { LoginSignupWrapperComponent } from './components/login-signup-wrapper/login-signup-wrapper.component';
 import { InputComponent } from './components/input/input.component';
 
 @NgModule({
@@ -18,7 +17,6 @@ import { InputComponent } from './components/input/input.component';
     MainPageComponent,
     LoginPageComponent,
     CardComponent,
-    LoginSignupWrapperComponent,
     InputComponent,
   ],
   imports: [BrowserModule],

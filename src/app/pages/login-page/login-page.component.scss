@@ -1,12 +1,16 @@
 .loginPage {
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
   background-image: url("../../../assets/hero-banner.jpg");
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
   h1 {
     color: var(--primary);

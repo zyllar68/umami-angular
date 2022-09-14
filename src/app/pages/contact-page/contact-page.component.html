@@ -1,0 +1,42 @@
+<div class="contactPage">
+  <div>
+    <app-card>
+      <h3>Contact Us</h3>
+      <div class="contactPage__content">
+        <div class="contactPage__left">
+          <app-input
+            label="First Name"
+            [icon]="false"
+            errorMessage="error message"
+          ></app-input>
+          <app-input
+            label="last Name"
+            [icon]="false"
+            errorMessage="error message"
+          ></app-input>
+          <app-input
+            label="Email Address"
+            [icon]="false"
+            errorMessage="error message"
+          ></app-input>
+          <app-input
+            label="Contact"
+            [icon]="false"
+            errorMessage="error message"
+          ></app-input>
+        </div>
+        <div class="contactPage__right">
+          <div class="textArea" rows="10">
+            <label>How can we help you?</label>
+            <textarea>yeah</textarea>
+          </div>
+        </div>
+      </div>
+      <p class="footer">
+        <button class="mb-2">Confirm</button>
+        By sending this form I confirm that I have read and accept Intellectsoft
+        <span>Privacy Policy.</span>
+      </p>
+    </app-card>
+  </div>
+</div>

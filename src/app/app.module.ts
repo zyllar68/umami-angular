@@ -14,6 +14,8 @@ import { VerifyEmailPageComponent } from './pages/verify-email-page/verify-email
 import { VerifyEmail2PageComponent } from './pages/verify-email2-page/verify-email2-page.component';
 import { EmailVerifiedPageComponent } from './pages/email-verified-page/email-verified-page.component';
 import { ForgotPasswordPageComponent } from './pages/forgot-password-page/forgot-password-page.component';
+import { ForgotPassword2PageComponent } from './pages/forgot-password2-page/forgot-password2-page.component';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { ForgotPasswordPageComponent } from './pages/forgot-password-page/forgot
     VerifyEmail2PageComponent,
     EmailVerifiedPageComponent,
     ForgotPasswordPageComponent,
+    ForgotPassword2PageComponent,
+    ContactPageComponent,
   ],
   imports: [BrowserModule],
   providers: [],

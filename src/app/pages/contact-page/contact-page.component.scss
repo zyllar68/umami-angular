@@ -1,0 +1,68 @@
+.contactPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url("../../../assets/hero-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  &__content {
+    @media (min-width: 769px) {
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-auto-flow: column;
+      gap: 50px;
+    }
+  }
+
+  h3 {
+    font-weight: var(--semi-bold);
+    font-size: var(--big);
+  }
+
+  button {
+    margin-top: 4rem;
+    width: 350px;
+    text-align: center;
+  }
+
+  .footer {
+    max-width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    span {
+      color: var(--primary);
+    }
+  }
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  label {
+    color: hsl(0, 0%, 60%);
+    margin-bottom: 1rem;
+  }
+
+  textarea {
+    border: 1px solid var(--light-secondary);
+    border-radius: 5px;
+    min-height: 250px;
+    height: 100%;
+    @media (min-width: 769px) {
+      height: 320px;
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+}

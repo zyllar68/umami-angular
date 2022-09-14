@@ -1,4 +1,4 @@
-.loginPage {
+.signup1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,23 +12,12 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  h1 {
-    color: var(--primary);
-    font-weight: var(--regular);
-    font-size: var(--semi-big);
-    text-align: center;
-  }
-
-  h2 {
-    font-weight: var(--semi-bold);
-    font-size: var(--big);
-  }
-  &__right {
-    display: none;
-  }
-
   &__left {
+    display: none;
     border-right: 1px solid var(--light-secondary);
+  }
+
+  &__right {
     padding: 2rem 3rem 2rem 3rem;
 
     h2 {
@@ -37,53 +26,61 @@
     }
   }
 
-  &__footer {
-    margin-top: 3rem;
-    p {
-      margin-top: 1rem;
-      text-align: center;
+  &__requirements {
+    list-style-type: circle;
+    margin-top: 2rem;
+    li {
+      color: var(--semi-light-secondary);
     }
-    a {
-      font-weight: var(--bold);
+
+    .active {
       color: var(--primary);
+      list-style-type: disc !important;
     }
   }
-  .form-check {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-    font-size: var(--small);
 
-    label {
-      color: #000000;
+  &__footer {
+    margin-top: 2rem;
+    text-align: center;
+
+    .terms {
+      margin-top: 0.7rem;
+      p {
+        margin-top: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+      }
+      span {
+        color: var(--primary);
+      }
     }
-    input {
-      width: 10px;
-    }
-    a {
-      color: var(--primary);
-    }
+  }
+
+  .step {
+    color: #ccc;
+    font-size: var(--small);
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 
 @media (min-width: 993px) {
-  .loginPage {
+  .signup1 {
     &__content {
       @media (min-width: 993px) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
       }
     }
-    &__right {
+    &__left {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
       h2 {
-        font-size: var(--big);
-        color: var(--black) !important;
-        font-weight: var(--semi-bold);
+        font-size: 48px;
+        color: var(--primary);
+        font-weight: var(--regular);
       }
     }
   }

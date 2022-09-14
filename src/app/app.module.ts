@@ -8,6 +8,7 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { CardComponent } from './components/card/card.component';
 import { InputComponent } from './components/input/input.component';
+import { Signup1PageComponent } from './pages/signup1-page/signup1-page.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { InputComponent } from './components/input/input.component';
     LoginPageComponent,
     CardComponent,
     InputComponent,
+    Signup1PageComponent,
   ],
   imports: [BrowserModule],
   providers: [],

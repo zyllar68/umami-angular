@@ -1,0 +1,49 @@
+<div class="signup1">
+  <div>
+    <app-card [ngStyle]="{ width: '100%' }">
+      <div class="signup1__content">
+        <div class="signup1__left">
+          <h2>umami</h2>
+          <img src="../../../assets/girl-phone.png" alt="" />
+        </div>
+        <div class="signup1__right">
+          <form>
+            <app-input
+              label="Email Address"
+              [icon]="false"
+              errorMessage="error message"
+            ></app-input>
+            <app-input
+              label="Password"
+              [icon]="true"
+              errorMessage="error message"
+            ></app-input>
+            <app-input
+              label="Confirm Password"
+              [icon]="true"
+              errorMessage="error message"
+            ></app-input>
+            <ul class="signup1__requirements">
+              <li class="active">Contains at least one uppercase</li>
+              <li>Contains at least one number</li>
+              <li>Contains at least one special character</li>
+              <li>Minimum eight (8) characters</li>
+            </ul>
+            <div class="signup1__footer">
+              <button>Next</button>
+              <div class="terms">
+                <input type="checkbox" id="terms" />
+                <label for="terms">
+                  I agree to the <span>Terms</span> and
+                  <span>Privacy Policy.</span>
+                </label>
+              </div>
+            </div>
+
+            <p class="step">Step 1</p>
+          </form>
+        </div>
+      </div>
+    </app-card>
+  </div>
+</div>

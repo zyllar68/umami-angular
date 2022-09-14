@@ -1,0 +1,34 @@
+.form-group {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  &__icon {
+    display: flex;
+    img {
+      border-bottom: 1px solid var(--light-secondary);
+    }
+  }
+  label {
+    color: var(--semi-light-secondary);
+    margin-bottom: 0.5rem;
+  }
+  input {
+    border: 0;
+    border-bottom: 1px solid var(--light-secondary);
+    font-size: var(--extra-regular);
+    width: 100%;
+    &:focus {
+      outline: none;
+    }
+  }
+  p {
+    font-size: var(--small);
+    color: var(--primary);
+  }
+  &-required {
+    content: "*";
+    color: var(--primary);
+    margin-left: 0.5rem;
+  }
+}

@@ -1,1 +1,11 @@
-<p>input works!</p>
+<div class="form-group">
+  <label>{{ label }}</label>
+  <input *ngIf="icon === false; else withIcon" />
+  <ng-template #withIcon>
+    <div class="form-group__icon">
+      <input />
+      <img src="../assets/eye-icon.svg" alt="eye icon" />
+    </div>
+  </ng-template>
+  <p>{{ errorMessage }}</p>
+</div>

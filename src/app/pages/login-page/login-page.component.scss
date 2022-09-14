@@ -1,17 +1,86 @@
 .loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
+  background-image: url("../../../assets/hero-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-  &__content {
-    @media (min-width: 769px) {
-      display: flex;
-      justify-content: space-between;
-    }
+  h1 {
+    color: var(--primary);
+    font-weight: var(--regular);
+    font-size: var(--semi-big);
+    text-align: center;
   }
 
+  h2 {
+    font-weight: var(--semi-bold);
+    font-size: var(--big);
+  }
   &__right {
+    display: none;
   }
 
   &__left {
-    display: none;
+    border-right: 1px solid var(--light-secondary);
+    padding: 2rem 3rem 2rem 3rem;
+
+    h2 {
+      font-weight: var(--semi-bold);
+      font-size: var(--big);
+    }
+  }
+
+  &__footer {
+    margin-top: 3rem;
+    p {
+      margin-top: 1rem;
+      text-align: center;
+    }
+    a {
+      font-weight: var(--bold);
+      color: var(--primary);
+    }
+  }
+  .form-check {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: var(--small);
+
+    label {
+      color: #000000;
+    }
+    input {
+      width: 10px;
+    }
+    a {
+      color: var(--primary);
+    }
+  }
+}
+
+@media (min-width: 993px) {
+  .loginPage {
+    &__content {
+      @media (min-width: 993px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    &__right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        font-size: var(--big);
+        color: var(--black) !important;
+        font-weight: var(--semi-bold);
+      }
+    }
   }
 }

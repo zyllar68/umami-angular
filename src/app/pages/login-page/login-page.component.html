@@ -3,10 +3,39 @@
     <app-card [ngStyle]="{ width: '100%' }">
       <div class="loginPage__content">
         <div class="loginPage__left">
+          <h1>umami</h1>
+          <h2>Hi</h2>
+          <p>Welcome back! Enter your credentials toa ccess your account.</p>
+          <form>
+            <app-input
+              label="Email"
+              [icon]="false"
+              errorMessage="error message"
+            ></app-input>
+            <app-input
+              label="Password"
+              [icon]="true"
+              errorMessage="error message"
+            ></app-input>
+
+            <div class="form-check">
+              <div>
+                <input type="checkbox" />
+                <label for="keep-login">Keep me login</label>
+              </div>
+              <a href="./forgot.html">Forgot your password?</a>
+            </div>
+
+            <div class="loginPage__footer">
+              <button>Login</button>
+              <p>Don't have an account? <a href="./signup.html">Sign Up</a></p>
+            </div>
+          </form>
+        </div>
+        <div class="loginPage__right">
           <h2>Welcome</h2>
           <img src="../../../assets/human-on-phone.png" alt="welcome image" />
         </div>
-        <div class="loginPage__right">yeah</div>
       </div>
     </app-card>
   </app-login-signup-wrapper>

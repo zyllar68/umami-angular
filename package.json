@@ -5,7 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --prod",
     "watch": "ng build --watch --configuration development",
+    "test-server:update": "ng build && ssh root@159.223.42.255 \"rm -rf /var/www/umami/dist/\" && scp -r dist/ root@159.223.42.255:/var/www/umami/",
+    "prod-server:update": "ng build --prod && ssh root@167.99.65.104 \"rm -rf /var/www/umami/dist/\" && scp -r dist/ root@167.99.65.104:/var/www/umami/",
     "test": "ng test"
   },
   "private": true,

@@ -16,6 +16,7 @@ import { EmailVerifiedPageComponent } from './pages/email-verified-page/email-ve
 import { ForgotPasswordPageComponent } from './pages/forgot-password-page/forgot-password-page.component';
 import { ForgotPassword2PageComponent } from './pages/forgot-password2-page/forgot-password2-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
     ForgotPassword2PageComponent,
     ContactPageComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
